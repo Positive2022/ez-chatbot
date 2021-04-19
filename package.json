@@ -1,0 +1,23 @@
+{
+  "name": "ez-chatbot",
+  "version": "0.0.1",
+  "description": "Discord chatbot built with discord.js and discord-chatbot package",
+  "main": "index.js",
+  "author": "Positive#2022",
+  "private": false,
+  "homepage": "https://github.com/Michael7020/ez-chatbot",
+  "repository": "github:Michael7020/ez-chatbot",
+  "bugs": "https://github.com/Michael7020/ez-chatbot/issues",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "discord-chatbot": "^2.0.2",
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
